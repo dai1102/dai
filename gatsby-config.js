@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Dai's Site",
+    title: 'dai',
     description: '',
     author: '@dn9',
   },
@@ -24,7 +24,7 @@ module.exports = {
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
-        icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
+        icon: 'src/images/favicons/android-chrome-512x512.png', // This path is relative to the root of the site.
       },
     },
   ],

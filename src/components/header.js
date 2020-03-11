@@ -38,6 +38,6 @@ Header.defaultProps = {
 };
 
 const Container = styled.header`
-  background: rebeccapurple;
+  background: #ff8800;
   marginbottom: 1.45rem;
 `;
