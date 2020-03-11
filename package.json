@@ -1,7 +1,7 @@
 {
   "name": "dai",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "dai's personal site",
   "version": "0.1.0",
   "author": "Dai Nguyen <dainguyen@gmail.com>",
   "dependencies": {
@@ -18,7 +18,8 @@
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-helmet": "^5.2.1",
-    "styled-components": "^5.0.1"
+    "styled-components": "^5.0.1",
+    "typeface-comfortaa": "^1.1.4"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.23.0",
@@ -28,7 +29,7 @@
     "prettier": "^1.19.1"
   },
   "keywords": [
-    "gatsby"
+    "dai"
   ],
   "license": "MIT",
   "scripts": {
@@ -42,9 +43,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/dn9/dai"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/dn9/dai/issues"
   }
 }
