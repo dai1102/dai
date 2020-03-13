@@ -9,7 +9,7 @@ import 'typeface-comfortaa';
 const IndexPage = () => (
   <Layout>
     <SEO />
-    <Link to="/page-2/">Go to page 2</Link>
+    <h1>Under construction</h1>
   </Layout>
 );
 
