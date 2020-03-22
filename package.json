@@ -6,7 +6,7 @@
   "author": "Dai Nguyen <dainguyen@gmail.com>",
   "dependencies": {
     "gatsby": "^2.19.37",
-    "gatsby-cli": "^2.10.6",
+    "gatsby-cli": "^2.11.0",
     "gatsby-image": "^2.2.39",
     "gatsby-plugin-manifest": "^2.2.39",
     "gatsby-plugin-offline": "^3.0.32",
