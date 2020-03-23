@@ -38,6 +38,7 @@ const Container = styled.div`
   background-color: #fff6e5;
   display: flex;
   height: 100vh;
+  height: -webkit-fill-available;
   justify-content: center;
   padding: 1.45rem;
 
