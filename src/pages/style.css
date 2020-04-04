@@ -199,6 +199,7 @@ html {
   box-sizing: inherit;
 }
 body {
+  background-color: #fff6e5;
   color: hsla(0, 0%, 0%, 0.8);
   font-family: 'Comfortaa';
   font-weight: normal;
@@ -209,6 +210,14 @@ body {
   -webkit-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
   font-feature-settings: 'kern', 'liga', 'clig', 'calt';
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: black;
+    color: #cccccc;
+  }
+}
+
 img {
   max-width: 100%;
   margin-left: 0;
