@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 
 import SEO from '../components/seo';
@@ -7,8 +7,12 @@ import './style.css';
 import 'typeface-comfortaa';
 
 const IndexPage = () => {
-  const song = SONGS[Math.floor(Math.random() * SONGS.length)];
-  const { title, blockQuote, youtubeID } = song;
+  const [{ title, blockQuote, youtubeID }, setSong] = useState({});
+
+  useEffect(() => {
+    const song = SONGS[Math.floor(Math.random() * SONGS.length)];
+    setSong(song);
+  }, []);
 
   return (
     <Container>
