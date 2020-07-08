@@ -13,7 +13,6 @@ export const SONGS = [
     title: 'Kremlin Dusk',
     youtubeID: '0e_CCrcSC_E',
     blockQuote: {
-      author: 'Utada Hikaru',
       quote: ['All along', 'I was searching for', 'my Lenore'],
       cite: 'https://en.wikipedia.org/wiki/Utada_Hikaru',
     },
@@ -28,7 +27,6 @@ export const SONGS = [
     title: 'Luv(sic) Part 4',
     youtubeID: 'a1GDdawym1U',
     blockQuote: {
-      author: 'Shing02',
       quote: ["When you took my hand, I couldn't hide it"],
       cite: 'https://en.wikipedia.org/wiki/Shing02',
     },
@@ -43,7 +41,6 @@ export const SONGS = [
     title: 'Luv(sic) Part 2',
     youtubeID: 'If9HEbCpvB8',
     blockQuote: {
-      author: 'Shing02',
       quote: [
         "The rhymes will heal 'cause I believe in music",
         "In times of need I won't be leaving you sick",
@@ -68,7 +65,6 @@ export const SONGS = [
     title: 'Eclipse',
     youtubeID: 'jd_CQeym-6U',
     blockQuote: {
-      author: 'Substantial',
       quote: ["This is for the things I don't say enough"],
       cite: 'https://en.wikipedia.org/wiki/Substantial_(rapper)',
     },
@@ -78,7 +74,6 @@ export const SONGS = [
     title: 'Midnight Train',
     youtubeID: 'W72LiPMNs9E',
     blockQuote: {
-      author: 'Emi Meyer',
       quote: ["Timing has never been my strength, ain't it strange?"],
       cite: 'https://en.wikipedia.org/wiki/Emi_Meyer',
     },
@@ -88,7 +83,6 @@ export const SONGS = [
     title: 'Oh Well, OK',
     youtubeID: '5qhPPnroLQ4',
     blockQuote: {
-      author: 'Elliott Smith',
       quote: ["Here's the silhouette of face always turned away"],
       cite: 'https://en.wikipedia.org/wiki/Elliott_Smith',
     },
@@ -98,7 +92,6 @@ export const SONGS = [
     title: "I Didn't Understand",
     youtubeID: 'lFIkik2I_Pc',
     blockQuote: {
-      author: 'Elliott Smith',
       quote: ['You once talked to me about love'],
       cite: 'https://en.wikipedia.org/wiki/Elliott_Smith',
     },
