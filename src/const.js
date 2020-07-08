@@ -1,5 +1,14 @@
 export const SONGS = [
   {
+    artist: 'Coldplay',
+    title: 'In My Place',
+    youtubeID: 'gnIZ7RMuLpU',
+    blockQuote: {
+      quote: ['In my place, in my place', "Were lines that I couldn't change"],
+      cite: 'https://en.wikipedia.org/wiki/Coldplay',
+    },
+  },
+  {
     artist: 'Utada',
     title: 'Kremlin Dusk',
     youtubeID: '0e_CCrcSC_E',
