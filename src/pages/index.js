@@ -17,9 +17,9 @@ const IndexPage = () => {
   return (
     <Container>
       <SEO />
-      <p>
+      <Info>
         —{artist}, <cite>{title}</cite>
-      </p>
+      </Info>
       <IFrame
         width="560"
         height="315"
@@ -33,26 +33,18 @@ const IndexPage = () => {
 };
 
 const Container = styled.div`
-  align-items: center;
   display: flex;
   height: 100vh;
-  justify-content: center;
   padding: 1.45rem;
+  place-items: center;
 
   @media (max-width: 500px) {
     flex-direction: column;
   }
 `;
 
-const Blockquote = styled.blockquote`
-  @media (max-width: 500px) {
-    margin: 0;
-    font-size: 0.875rem;
-  }
-`;
-
-const Quote = styled.p`
-  white-space: pre-wrap;
+const Info = styled.p`
+  margin: 1.45rem;
 `;
 
 const IFrame = styled.iframe`
