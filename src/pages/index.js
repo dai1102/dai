@@ -39,8 +39,9 @@ const Container = styled.div`
 `;
 
 const IFrame = styled.iframe`
+  height: 45vw;
   margin-top: 1.45rem;
-  width: 90vw;
+  width: 80vw;
 `;
 
 export default IndexPage;
