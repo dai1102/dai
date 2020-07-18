@@ -7,7 +7,7 @@ import './style.css';
 import 'typeface-comfortaa';
 
 const IndexPage = () => {
-  const [{ artist, title, blockQuote, youtubeID }, setSong] = useState({});
+  const [{ artist, title, youtubeID }, setSong] = useState({});
 
   useEffect(() => {
     const song = SONGS[Math.floor(Math.random() * SONGS.length)];
@@ -17,14 +17,9 @@ const IndexPage = () => {
   return (
     <Container>
       <SEO />
-      {blockQuote && (
-        <Blockquote cite={blockQuote.cite}>
-          <Quote>{blockQuote.quote.join('\n')}</Quote>
-          <footer>
-            —{artist}, <cite>{title}</cite>
-          </footer>
-        </Blockquote>
-      )}
+      <p>
+        —{artist}, <cite>{title}</cite>
+      </p>
       <IFrame
         width="560"
         height="315"

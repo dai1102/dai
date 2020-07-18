@@ -1,35 +1,48 @@
 export const SONGS = [
   {
-    artist: 'Coldplay',
-    title: 'In My Place',
-    youtubeID: 'gnIZ7RMuLpU',
-    blockQuote: {
-      quote: ['In my place, in my place', "Were lines that I couldn't change"],
-      cite: 'https://en.wikipedia.org/wiki/Coldplay',
-    },
+    artist: 'IU',
+    title: '밤편지',
+    youtubeID: 'BzYnNdJhZQw',
   },
   {
-    artist: 'Utada',
-    title: 'Kremlin Dusk',
-    youtubeID: '0e_CCrcSC_E',
-    blockQuote: {
-      quote: ['All along', 'I was searching for', 'my Lenore'],
-      cite: 'https://en.wikipedia.org/wiki/Utada_Hikaru',
-    },
+    artist: 'Kara Comparetto',
+    title: 'At the Bottom of Night',
+    youtubeID: 'uCjzlwNB75U',
   },
   {
-    artist: 'Blazo',
-    title: 'Alone Journey',
-    youtubeID: '3i6VLj4JE24',
+    artist: 'Elliott Smith',
+    title: "I Didn't Understand",
+    youtubeID: 'lFIkik2I_Pc',
+  },
+  {
+    artist: 'Elliott Smith',
+    title: 'Oh Well, OK',
+    youtubeID: '5qhPPnroLQ4',
+  },
+  {
+    artist: 'DJ Okawari',
+    title: 'Midnight Train',
+    youtubeID: 'W72LiPMNs9E',
   },
   {
     artist: 'Nujabes',
-    title: 'Luv(sic) Part 4',
-    youtubeID: 'a1GDdawym1U',
-    blockQuote: {
-      quote: ["When you took my hand, I couldn't hide it"],
-      cite: 'https://en.wikipedia.org/wiki/Shing02',
-    },
+    title: 'Eclipse',
+    youtubeID: 'jd_CQeym-6U',
+  },
+  {
+    artist: 'DJ Okawari',
+    title: 'The Bonds',
+    youtubeID: '2WNaBNvxNJo',
+  },
+  {
+    artist: 're:plus',
+    title: 'A Fall and Rebirth',
+    youtubeID: 'lyy55XMcZSY',
+  },
+  {
+    artist: 'Nujabes',
+    title: 'Luv(sic) Part 2',
+    youtubeID: 'If9HEbCpvB8',
   },
   {
     artist: 'Parov Stelar',
@@ -38,73 +51,22 @@ export const SONGS = [
   },
   {
     artist: 'Nujabes',
-    title: 'Luv(sic) Part 2',
-    youtubeID: 'If9HEbCpvB8',
-    blockQuote: {
-      quote: [
-        "The rhymes will heal 'cause I believe in music",
-        "In times of need I won't be leaving you sick",
-        "The beat plus the melody's the recipe",
-        'Your vibe surely brings out the best in me',
-      ],
-      cite: 'https://en.wikipedia.org/wiki/Shing02',
-    },
+    title: 'Luv(sic) Part 4',
+    youtubeID: 'a1GDdawym1U',
   },
   {
-    artist: 're:plus',
-    title: 'A Fall and Rebirth',
-    youtubeID: 'lyy55XMcZSY',
+    artist: 'Blazo',
+    title: 'Alone Journey',
+    youtubeID: '3i6VLj4JE24',
   },
   {
-    artist: 'DJ Okawari',
-    title: 'The Bonds',
-    youtubeID: '2WNaBNvxNJo',
+    artist: 'Utada',
+    title: 'Kremlin Dusk',
+    youtubeID: '0e_CCrcSC_E',
   },
   {
-    artist: 'Nujabes',
-    title: 'Eclipse',
-    youtubeID: 'jd_CQeym-6U',
-    blockQuote: {
-      quote: ["This is for the things I don't say enough"],
-      cite: 'https://en.wikipedia.org/wiki/Substantial_(rapper)',
-    },
-  },
-  {
-    artist: 'DJ Okawari',
-    title: 'Midnight Train',
-    youtubeID: 'W72LiPMNs9E',
-    blockQuote: {
-      quote: ["Timing has never been my strength, ain't it strange?"],
-      cite: 'https://en.wikipedia.org/wiki/Emi_Meyer',
-    },
-  },
-  {
-    artist: 'Elliott Smith',
-    title: 'Oh Well, OK',
-    youtubeID: '5qhPPnroLQ4',
-    blockQuote: {
-      quote: ["Here's the silhouette of face always turned away"],
-      cite: 'https://en.wikipedia.org/wiki/Elliott_Smith',
-    },
-  },
-  {
-    artist: 'Elliott Smith',
-    title: "I Didn't Understand",
-    youtubeID: 'lFIkik2I_Pc',
-    blockQuote: {
-      quote: ['You once talked to me about love'],
-      cite: 'https://en.wikipedia.org/wiki/Elliott_Smith',
-    },
-  },
-  {
-    artist: 'Kara Comparetto',
-    composer: 'Yasunori Mitsuda',
-    title: 'At the Bottom of Night',
-    youtubeID: 'uCjzlwNB75U',
-  },
-  {
-    artist: 'IU',
-    title: '밤편지',
-    youtubeID: 'BzYnNdJhZQw',
+    artist: 'Coldplay',
+    title: 'In My Place',
+    youtubeID: 'gnIZ7RMuLpU',
   },
 ];
