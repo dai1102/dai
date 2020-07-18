@@ -34,13 +34,11 @@ const Container = styled.div`
   align-items: center;
   display: flex;
   flex-direction: column;
-  height: 100vh;
   justify-content: center;
 `;
 
 const IFrame = styled.iframe`
   height: 45vw;
-  margin-top: 1.45rem;
   width: 80vw;
 `;
 
