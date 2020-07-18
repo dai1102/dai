@@ -17,24 +17,28 @@ const IndexPage = () => {
   return (
     <Container>
       <SEO />
-      <p>
-        {artist}, <cite>{title}</cite>
-      </p>
-      <IFrame
-        src={`https://www.youtube.com/embed/${youtubeID}`}
-        frameBorder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-      ></IFrame>
+      <div>
+        <Info>
+          {artist}, <cite>{title}</cite>
+        </Info>
+        <IFrame
+          src={`https://www.youtube.com/embed/${youtubeID}`}
+          frameBorder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></IFrame>
+      </div>
     </Container>
   );
 };
 
 const Container = styled.div`
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  display: grid;
+  place-items: center;
+`;
+
+const Info = styled.p`
+  margin: 1.45rem 0;
 `;
 
 const IFrame = styled.iframe`
