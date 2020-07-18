@@ -34,6 +34,7 @@ const IndexPage = () => {
 
 const Container = styled.div`
   display: grid;
+  height: 100vh;
   place-items: center;
 `;
 
