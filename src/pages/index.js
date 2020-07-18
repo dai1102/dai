@@ -18,9 +18,9 @@ const IndexPage = () => {
     <Container>
       <SEO />
       <div>
-        <Info>
+        <p>
           {artist}, <cite>{title}</cite>
-        </Info>
+        </p>
         <IFrame
           src={`https://www.youtube.com/embed/${youtubeID}`}
           frameBorder="0"
@@ -36,10 +36,6 @@ const Container = styled.div`
   display: grid;
   height: 100vh;
   place-items: center;
-`;
-
-const Info = styled.p`
-  margin: 1.45rem 0;
 `;
 
 const IFrame = styled.iframe`
