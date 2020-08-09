@@ -60,6 +60,11 @@ export const SONGS = [
     youtubeID: '3i6VLj4JE24',
   },
   {
+    artist: 'Crisis Core',
+    title: 'Why (CCFFVII Mix)',
+    youtubeID: 'Xj3W03XU-C8',
+  },
+  {
     artist: 'Utada',
     title: 'Kremlin Dusk',
     youtubeID: '0e_CCrcSC_E',
